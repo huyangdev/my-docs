@@ -17,6 +17,10 @@ copyright: jimi
 
 ---
 
+文章的摘要
+
+<!-- more -->
+
 # 安装项目
 
 ![image-20230320173330881](./imgs/notes/image-20230320173330881.png)
