@@ -31,7 +31,7 @@ copyright: jimi
 pnpm create vuepress-theme-hope my-docs
 ```
 
-![image-20230320222940599](imgs/deploy_Vuepress/image-0599.png)
+![image-20230320173330881](./imgs/deploy_Vuepress/image-0599.png)
 
 需要注意的是 `Do you need a GitHub workflow to deploy docs on GitHub pages? Yes` 这个问题要选择 `Y`，不过不选择也没事，后续手动创建 `my-docs\.github\workflows\deploy-docs.yml`即可。
 
@@ -135,15 +135,17 @@ base: "/my-docs/", # 这里的 my-docs 为后面创建的 Github 仓库的名称
 
 如果下图中有执行失败的 `workflow` 。只需要手动从新执行一遍。
 
-![image-20230320225434885](imgs/deploy_Vuepress/image-4885.png)
+![image-20230320225434885](./imgs/deploy_Vuepress/image-4885.png)
 
 完成之后应当会出现一个分支 `gh-pages`
 
-![image-20230320225710341](imgs/deploy_Vuepress/image-0341.png)
+![image-20230320225710341](./imgs/deploy_Vuepress/image-0341.png)
 
 # 4.设置 Github page
 
-![image-20230320225820231](imgs/deploy_Vuepress/image-0231_Github page.png)
+![image-20230320225820231](./imgs/deploy_Vuepress/image-0231_Github_page.png)
+
+
 
 
 
