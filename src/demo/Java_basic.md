@@ -6,7 +6,7 @@
 
 
 
-**JDK 动态代理有一个最致命的问题是其只能代理实现了接口的类。**因为通过JDK Proxy 方法创建的代理对象都会继承 Proxy 类，通过继承 Proxy 类将 `InvocationHandler` 与代理对象进行绑定。之后在通过实现代理服务的接口完成对目标对象的增强。
+**JDK 动态代理有一个最致命的问题是其只能代理实现了接口的类**。因为通过JDK Proxy 方法创建的代理对象都会继承 Proxy 类，通过继承 Proxy 类将 `InvocationHandler` 与代理对象进行绑定。之后在通过实现代理服务的接口完成对目标对象的增强。
 
 
 
@@ -107,7 +107,7 @@ myMethodInterceptor go
 
 测试在 a 方法中添加一句输出 this  ，结论：Cglib代理的时候 target 对象中的 this 就是Cglib 生成的代理类 （你可能觉得我说的是废话，子类对象在父类的this指的不是自身吗？ 你知道 Spring Aop 里 this 方法无法**增强自身调用**，这时候你就开始怀疑人生了）
 
-![img](imgs/Java_basic/1550387-20190117192604685-1528551798.png)
+![增强自身调用](./imgs/Java_basic/1550387-20190117192604685-1528551798.png)
 
 
 
@@ -234,7 +234,7 @@ public class TestApp {
 
   第三个文件：被代理类的 **FastClass 类**
 
-![生成的class文件](imgs/Java_basic/1550387-20190117195628546-110897453.png)
+![生成的class文件](./imgs/Java_basic/1550387-20190117195628546-110897453.png)
 
 
 
