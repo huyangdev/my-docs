@@ -17,3 +17,5 @@ category:
 - [Encryption Demo](encrypt.md)
 
 - [test](notes.md)
+
+- [Java_basic](Java_basic.md)
